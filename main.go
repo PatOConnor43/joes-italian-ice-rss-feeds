@@ -20,6 +20,25 @@ type EmbeddedTable struct {
 	Items      ItemsData      `json:"items"`
 }
 
+// MenuFlavor represents a flavor from the menu page
+type MenuFlavor struct {
+	Name string
+	Slug string
+}
+
+// LocationFlavor represents a single flavor entry for a location
+type LocationFlavor struct {
+	StoreName    string
+	Location     string
+	Flavor       string
+	Date         string
+	LatestUpdate string
+	StoreHours   string
+	OrderURL     string
+	ScrapeTime   time.Time
+	Available    bool // true if this flavor is actually listed for today
+}
+
 type CollectionData struct {
 	TableID int    `json:"table_id"`
 	Name    string `json:"table_title"`
@@ -67,6 +86,26 @@ type ColumnData struct {
 type RowData struct {
 	RecordID string       `json:"record_id"`
 	Content  ContentMap   `json:"content"`
+}
+
+func (r *RowData) UnmarshalJSON(data []byte) error {
+	type Alias RowData
+	aux := &struct {
+		RecordID interface{} `json:"record_id"`
+		*Alias
+	}{
+		Alias: (*Alias)(r),
+	}
+	if err := json.Unmarshal(data, &aux); err != nil {
+		return err
+	}
+	switch v := aux.RecordID.(type) {
+	case float64:
+		r.RecordID = fmt.Sprintf("%d", int(v))
+	case string:
+		r.RecordID = v
+	}
+	return nil
 }
 
 // ContentMap handles both array [{"value":"..."}] and object {"0":{"value":"..."}} formats
@@ -117,6 +156,9 @@ type StoreFlavors struct {
 	OrderURL     string
 	ScrapeTime   time.Time
 }
+
+// FlavorMap maps flavor names to their availability for a store
+type FlavorMap map[string]bool
 
 // ============ RSS Feed ============
 
@@ -312,6 +354,94 @@ func (s *Scraper) FetchAllFlavors() ([]*StoreFlavors, error) {
 	return stores, nil
 }
 
+// FetchMenuFlavors scrapes the menu page for all available Italian ice flavors
+func (s *Scraper) FetchMenuFlavors() ([]MenuFlavor, error) {
+	html, err := s.FetchPage(s.baseURL + "/menu/")
+	if err != nil {
+		return nil, fmt.Errorf("fetch menu: %w", err)
+	}
+
+	var flavors []MenuFlavor
+
+	// Extract featured flavors (h3 headings under "Italian Ice Flavors")
+	featuredPattern := regexp.MustCompile(`<h3[^>]*>([\s\S]*?)</h3>`)
+	featuredMatches := featuredPattern.FindAllStringSubmatch(html, -1)
+	tagCleaner := regexp.MustCompile(`<[^>]+>`)
+	for _, match := range featuredMatches {
+		name := strings.TrimSpace(tagCleaner.ReplaceAllString(match[1], ""))
+		if name != "" && name != "Italian Ice Flavors" {
+			flavors = append(flavors, MenuFlavor{
+				Name: name,
+				Slug: slugify(name),
+			})
+		}
+	}
+
+	// Extract "More Flavors" list items from et_pb_text_inner divs
+	moreFlavorsSection := extractBetween(html, "More Flavors!</h2>", `<div id="contact"`)
+	if moreFlavorsSection != "" {
+		// Find all et_pb_text_inner divs containing flavor lists
+		innerPattern := regexp.MustCompile(`<div class="et_pb_text_inner">([\s\S]*?)</div>`)
+		innerMatches := innerPattern.FindAllStringSubmatch(moreFlavorsSection, -1)
+		for _, match := range innerMatches {
+			content := match[1]
+			// Decode HTML entities
+			content = strings.ReplaceAll(content, "&#8216;", "'")
+			content = strings.ReplaceAll(content, "&#8217;", "'")
+			content = strings.ReplaceAll(content, "&#8220;", "\"")
+			content = strings.ReplaceAll(content, "&#8221;", "\"")
+			// Split by <br /> tags
+			parts := regexp.MustCompile(`<br\s*/?>`).Split(content, -1)
+			for _, part := range parts {
+				name := strings.TrimSpace(part)
+				if name != "" {
+					flavors = append(flavors, MenuFlavor{
+						Name: name,
+						Slug: slugify(name),
+					})
+				}
+			}
+		}
+	}
+
+	// Deduplicate by name
+	seen := make(map[string]bool)
+	var unique []MenuFlavor
+	for _, f := range flavors {
+		if !seen[f.Name] {
+			seen[f.Name] = true
+			unique = append(unique, f)
+		}
+	}
+
+	return unique, nil
+}
+
+func extractBetween(html, start, end string) string {
+	idxStart := strings.Index(html, start)
+	if idxStart == -1 {
+		return ""
+	}
+	idxStart += len(start)
+	idxEnd := strings.Index(html[idxStart:], end)
+	if idxEnd == -1 {
+		return ""
+	}
+	return html[idxStart : idxStart+idxEnd]
+}
+
+func slugify(s string) string {
+	s = strings.ToLower(s)
+	s = strings.ReplaceAll(s, " ", "-")
+	s = strings.ReplaceAll(s, "'", "")
+	s = strings.ReplaceAll(s, "’", "")
+	s = strings.ReplaceAll(s, "\"", "")
+	s = regexp.MustCompile(`[^a-z0-9-]`).ReplaceAllString(s, "")
+	s = regexp.MustCompile(`-+`).ReplaceAllString(s, "-")
+	s = strings.Trim(s, "-")
+	return s
+}
+
 // ============ Helpers ============
 
 func deduplicateFlavors(flavors []string) []string {
@@ -397,29 +527,136 @@ func writeRSS(stores []*StoreFlavors, dir string) error {
 	return nil
 }
 
+// buildFlavorDescription creates a description for a single flavor entry
+func buildFlavorDescription(store *StoreFlavors, flavor string) string {
+	var sb strings.Builder
+	sb.WriteString(fmt.Sprintf("<h3>%s</h3>", escapeHTML(store.Location)))
+	sb.WriteString(fmt.Sprintf("<p><strong>Flavor:</strong> %s</p>", escapeHTML(flavor)))
+	sb.WriteString(fmt.Sprintf("<p><strong>Date:</strong> %s</p>", escapeHTML(store.Date)))
+	sb.WriteString(fmt.Sprintf("<p><strong>Update:</strong> %s</p>", escapeHTML(store.LatestUpdate)))
+	sb.WriteString(fmt.Sprintf("<p><strong>Hours:</strong> %s</p>", escapeHTML(store.StoreHours)))
+	if store.OrderURL != "" {
+		sb.WriteString(fmt.Sprintf("<p><a href=\"%s\">Order Online</a></p>", store.OrderURL))
+	}
+	return sb.String()
+}
+
+// writeFlavorRSS generates a per-flavor feed for each location
+func writeFlavorRSS(stores []*StoreFlavors, allMenuFlavors []MenuFlavor, dir string) error {
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		return fmt.Errorf("create dir: %w", err)
+	}
+
+	// Build a lookup: location -> set of available flavors
+	availableByLocation := make(map[string]FlavorMap)
+	for _, store := range stores {
+		loc := strings.ToLower(strings.ReplaceAll(store.Location, ", ", "-"))
+		flavorSet := make(FlavorMap)
+		for _, f := range store.Flavors {
+			flavorSet[f] = true
+		}
+		availableByLocation[loc] = flavorSet
+	}
+
+	// For each location, create a feed for every known menu flavor
+	for _, store := range stores {
+		locSlug := strings.ToLower(strings.ReplaceAll(store.Location, ", ", "-"))
+		available := availableByLocation[locSlug]
+
+		for _, menuFlavor := range allMenuFlavors {
+			lf := &LocationFlavor{
+				StoreName:    store.StoreName,
+				Location:     store.Location,
+				Flavor:       menuFlavor.Name,
+				Date:         store.Date,
+				LatestUpdate: store.LatestUpdate,
+				StoreHours:   store.StoreHours,
+				OrderURL:     store.OrderURL,
+				ScrapeTime:   store.ScrapeTime,
+				Available:    available[menuFlavor.Name],
+			}
+
+			var items []Item
+			if lf.Available {
+				item := Item{
+					Title:       fmt.Sprintf("%s - Available at %s", lf.Flavor, lf.Location),
+					Link:        lf.OrderURL,
+					Description: buildFlavorDescription(store, lf.Flavor),
+					PubDate:     lf.ScrapeTime.UTC().Format(time.RFC1123Z),
+					GUID:        fmt.Sprintf("flavor-%s-%s-%s", locSlug, menuFlavor.Slug, lf.ScrapeTime.Format("20060102")),
+				}
+				items = append(items, item)
+			}
+
+			rss := &RSSFeed{
+				Version: "2.0",
+				Channel: Channel{
+					Title:       fmt.Sprintf("%s - %s at %s", lf.Flavor, lf.StoreName, lf.Location),
+					Link:        lf.OrderURL,
+					Description: fmt.Sprintf("Daily availability of %s at %s, %s", lf.Flavor, lf.StoreName, lf.Location),
+					Language:    "en-us",
+					Copyright:   fmt.Sprintf("Copyright %d Joe's Italian Ice", lf.ScrapeTime.Year()),
+					Generator:   "joes-italian-ice-rss-feeds",
+					LastBuild:   lf.ScrapeTime.UTC().Format(time.RFC1123Z),
+					PubDate:     lf.ScrapeTime.UTC().Format(time.RFC1123Z),
+					TTL:         "60",
+					Item:        items,
+				},
+			}
+
+			data, err := xml.MarshalIndent(rss, "", "  ")
+			if err != nil {
+				return fmt.Errorf("marshal: %w", err)
+			}
+
+			filename := fmt.Sprintf("%s-%s.xml", locSlug, menuFlavor.Slug)
+			path := filepath.Join(dir, filename)
+			if err := os.WriteFile(path, append([]byte(xml.Header), data...), 0644); err != nil {
+				return fmt.Errorf("write %s: %w", filename, err)
+			}
+		}
+	}
+	return nil
+}
+
 // ============ Main ============
 
 func main() {
 	scraper := NewScraper()
-	fmt.Print("Fetching daily flavors... ")
 
+	// Fetch daily flavors per location
+	fmt.Print("Fetching daily flavors... ")
 	stores, err := scraper.FetchAllFlavors()
 	if err != nil {
 		fmt.Printf("error: %v\n", err)
 		os.Exit(1)
 	}
-
 	fmt.Printf("%d store(s), %d total flavors\n", len(stores), totalFlavors(stores))
 
+	// Fetch all known menu flavors
+	fmt.Print("Fetching menu flavors... ")
+	allFlavors, err := scraper.FetchMenuFlavors()
+	if err != nil {
+		fmt.Printf("warning: could not fetch menu: %v\n", err)
+		allFlavors = nil // Continue without menu flavors
+	} else {
+		fmt.Printf("%d menu flavors found\n", len(allFlavors))
+	}
+
+	// Write location-level feeds
 	if err := writeRSS(stores, "rss"); err != nil {
 		fmt.Printf("error writing RSS: %v\n", err)
 		os.Exit(1)
 	}
-
 	fmt.Println("Written to rss/*.xml")
-	for _, store := range stores {
-		loc := strings.ToLower(strings.ReplaceAll(store.Location, ", ", "-"))
-		fmt.Printf("  %s -> rss/%s.xml\n", store.StoreName, loc)
+
+	// Write per-flavor feeds
+	if len(allFlavors) > 0 {
+		if err := writeFlavorRSS(stores, allFlavors, "rss"); err != nil {
+			fmt.Printf("error writing flavor feeds: %v\n", err)
+			os.Exit(1)
+		}
+		fmt.Printf("Written %d per-flavor feeds to rss/\n", len(stores)*len(allFlavors))
 	}
 }
 
