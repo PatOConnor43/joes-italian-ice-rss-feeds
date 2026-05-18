@@ -84,8 +84,8 @@ type ColumnData struct {
 }
 
 type RowData struct {
-	RecordID string       `json:"record_id"`
-	Content  ContentMap   `json:"content"`
+	RecordID string     `json:"record_id"`
+	Content  ContentMap `json:"content"`
 }
 
 func (r *RowData) UnmarshalJSON(data []byte) error {
@@ -187,6 +187,33 @@ type Item struct {
 	Description string `xml:"description"`
 	PubDate     string `xml:"pubDate"`
 	GUID        string `xml:"guid"`
+}
+
+// ============ OPML Feed ============
+
+type OPML struct {
+	XMLName xml.Name `xml:"opml"`
+	Version string   `xml:"version,attr"`
+	Head    OPMLHead `xml:"head"`
+	Body    OPMLBody `xml:"body"`
+}
+
+type OPMLHead struct {
+	Title       string `xml:"title"`
+	DateCreated string `xml:"dateCreated"`
+	OwnerName   string `xml:"ownerName"`
+	OwnerEmail  string `xml:"ownerEmail"`
+}
+
+type OPMLBody struct {
+	Outline []OPMLOutline `xml:"outline"`
+}
+
+type OPMLOutline struct {
+	Text     string        `xml:"text,attr"`
+	Type     string        `xml:"type,attr"`
+	XMLURL   string        `xml:"xmlUrl,attr"`
+	Outlines []OPMLOutline `xml:"outline"`
 }
 
 // ============ Scraper ============
@@ -619,6 +646,76 @@ func writeFlavorRSS(stores []*StoreFlavors, allMenuFlavors []MenuFlavor, dir str
 	return nil
 }
 
+// writeOPML generates an OPML file that lists all available RSS feeds
+func writeOPML(stores []*StoreFlavors, allMenuFlavors []MenuFlavor, rssDir string) error {
+	// Build category for location feeds
+	var locationOutlines []OPMLOutline
+	for _, store := range stores {
+		locSlug := strings.ToLower(strings.ReplaceAll(store.Location, ", ", "-"))
+		filename := locSlug + ".xml"
+		// Construct public URL (users will need to update this based on their hosting)
+		xmlURL := fmt.Sprintf("https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/%s", filename)
+		locationOutlines = append(locationOutlines, OPMLOutline{
+			Text:   fmt.Sprintf("%s - All Flavors", store.StoreName),
+			Type:   "rss",
+			XMLURL: xmlURL,
+		})
+	}
+
+	// Build category for flavor feeds
+	var flavorOutlines []OPMLOutline
+	if len(allMenuFlavors) > 0 {
+		for _, store := range stores {
+			locSlug := strings.ToLower(strings.ReplaceAll(store.Location, ", ", "-"))
+			for _, menuFlavor := range allMenuFlavors {
+				filename := fmt.Sprintf("%s-%s.xml", locSlug, menuFlavor.Slug)
+				xmlURL := fmt.Sprintf("https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/%s", filename)
+				flavorOutlines = append(flavorOutlines, OPMLOutline{
+					Text:   fmt.Sprintf("%s - %s", menuFlavor.Name, store.Location),
+					Type:   "rss",
+					XMLURL: xmlURL,
+				})
+			}
+		}
+	}
+
+	opml := &OPML{
+		Version: "2.0",
+		Head: OPMLHead{
+			Title:       "Joe's Italian Ice RSS Feeds",
+			DateCreated: time.Now().UTC().Format(time.RFC3339),
+			OwnerName:   "Joe's Italian Ice",
+			OwnerEmail:  "feeds@joesice.com",
+		},
+		Body: OPMLBody{
+			Outline: []OPMLOutline{
+				{
+					Text:     "Location Feeds",
+					Type:     "folder",
+					Outlines: locationOutlines,
+				},
+				{
+					Text:     "Individual Flavor Feeds",
+					Type:     "folder",
+					Outlines: flavorOutlines,
+				},
+			},
+		},
+	}
+
+	data, err := xml.MarshalIndent(opml, "", "  ")
+	if err != nil {
+		return fmt.Errorf("marshal OPML: %w", err)
+	}
+
+	path := filepath.Join(rssDir, "feeds.opml")
+	if err := os.WriteFile(path, append([]byte(xml.Header), data...), 0644); err != nil {
+		return fmt.Errorf("write OPML: %w", err)
+	}
+
+	return nil
+}
+
 // ============ Main ============
 
 func main() {
@@ -658,6 +755,14 @@ func main() {
 		}
 		fmt.Printf("Written %d per-flavor feeds to rss/\n", len(stores)*len(allFlavors))
 	}
+
+	// Write OPML file
+	fmt.Print("Generating OPML file... ")
+	if err := writeOPML(stores, allFlavors, "rss"); err != nil {
+		fmt.Printf("error: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Println("Written to rss/feeds.opml")
 }
 
 func totalFlavors(stores []*StoreFlavors) int {
