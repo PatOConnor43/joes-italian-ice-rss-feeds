@@ -2,91 +2,16 @@
 <opml version="2.0">
   <head>
     <title>Joe&#39;s Italian Ice RSS Feeds</title>
-    <dateCreated>2026-06-24T20:38:45Z</dateCreated>
+    <dateCreated>2026-06-25T20:43:41Z</dateCreated>
     <ownerName>Joe&#39;s Italian Ice</ownerName>
     <ownerEmail>feeds@joesice.com</ownerEmail>
   </head>
   <body>
     <outline text="Location Feeds" type="folder" xmlUrl="">
-      <outline text="Joe&#39;s Italian Ice - Anaheim - All Flavors" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca.xml"></outline>
       <outline text="Joe&#39;s Italian Ice - Tempe - All Flavors" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az.xml"></outline>
+      <outline text="Joe&#39;s Italian Ice - Anaheim - All Flavors" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca.xml"></outline>
     </outline>
     <outline text="Individual Flavor Feeds" type="folder" xmlUrl="">
-      <outline text="Bada Bing Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bada-bing-cherry.xml"></outline>
-      <outline text="Blue Hawaii - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-hawaii.xml"></outline>
-      <outline text="Blue Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-raspberry.xml"></outline>
-      <outline text="Cactus Cooler - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-cactus-cooler.xml"></outline>
-      <outline text="Caramel Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-caramel-apple.xml"></outline>
-      <outline text="Cotton Candy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-cotton-candy.xml"></outline>
-      <outline text="Dreamsicle - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-dreamsicle.xml"></outline>
-      <outline text="Fuzzy Wuzzy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-fuzzy-wuzzy.xml"></outline>
-      <outline text="Green Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-green-apple.xml"></outline>
-      <outline text="Java Joe - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-java-joe.xml"></outline>
-      <outline text="Lemon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lemon.xml"></outline>
-      <outline text="Mango Tango - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-mango-tango.xml"></outline>
-      <outline text="Monster Mash - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-monster-mash.xml"></outline>
-      <outline text="Peach - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peach.xml"></outline>
-      <outline text="Peachy Kiwi - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peachy-kiwi.xml"></outline>
-      <outline text="Peanutbutter Cup - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peanutbutter-cup.xml"></outline>
-      <outline text="Poison Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-poison-apple.xml"></outline>
-      <outline text="Raspberry Tart - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-raspberry-tart.xml"></outline>
-      <outline text="Razzmatazz - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-razzmatazz.xml"></outline>
-      <outline text="Red Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-red-raspberry.xml"></outline>
-      <outline text="Strawberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberry.xml"></outline>
-      <outline text="Strawberries &#39;n Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberries-n-cream.xml"></outline>
-      <outline text="Strawberry Banana - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberry-banana.xml"></outline>
-      <outline text="Tiki Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tiki-cream.xml"></outline>
-      <outline text="Wild Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-wild-cherry.xml"></outline>
-      <outline text="Almond Joy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-almond-joy.xml"></outline>
-      <outline text="Apple Pie - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-apple-pie.xml"></outline>
-      <outline text="Bananadana - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bananadana.xml"></outline>
-      <outline text="Bananas ‘N Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bananas-n-cream.xml"></outline>
-      <outline text="Birch Beer - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-birch-beer.xml"></outline>
-      <outline text="Black Beauty - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-black-beauty.xml"></outline>
-      <outline text="Black Lemonade - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-black-lemonade.xml"></outline>
-      <outline text="Black Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-black-raspberry.xml"></outline>
-      <outline text="Blood Orange - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blood-orange.xml"></outline>
-      <outline text="Blue Cotton Candy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-cotton-candy.xml"></outline>
-      <outline text="Bubble Gum - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bubble-gum.xml"></outline>
-      <outline text="Chocolate - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-chocolate.xml"></outline>
-      <outline text="Chocolate Mousse - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-chocolate-mousse.xml"></outline>
-      <outline text="Coconut - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-coconut.xml"></outline>
-      <outline text="Cookies &#39;n Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-cookies-n-cream.xml"></outline>
-      <outline text="Dangerberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-dangerberry.xml"></outline>
-      <outline text="Granny Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-granny-apple.xml"></outline>
-      <outline text="Grape Devine - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-grape-devine.xml"></outline>
-      <outline text="Honeydew Melon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-honeydew-melon.xml"></outline>
-      <outline text="Horchata - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-horchata.xml"></outline>
-      <outline text="Joe-Co-Cola - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-joe-co-cola.xml"></outline>
-      <outline text="Joe of the Jungle - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-joe-of-the-jungle.xml"></outline>
-      <outline text="Joeconut Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-joeconut-cream.xml"></outline>
-      <outline text="Lemon Iced Tea - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lemon-iced-tea.xml"></outline>
-      <outline text="Lemon Meringue - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lemon-meringue.xml"></outline>
-      <outline text="Lime - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lime.xml"></outline>
-      <outline text="Mint Cookie - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-mint-cookie.xml"></outline>
-      <outline text="Orange - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-orange.xml"></outline>
-      <outline text="Passion Berry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-passion-berry.xml"></outline>
-      <outline text="Passion Fruit - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-passion-fruit.xml"></outline>
-      <outline text="Peach Fusion - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peach-fusion.xml"></outline>
-      <outline text="Peaches &#39;N Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peaches-n-cream.xml"></outline>
-      <outline text="Pink Grapefruit - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pink-grapefruit.xml"></outline>
-      <outline text="Pina Colada - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pina-colada.xml"></outline>
-      <outline text="Pineapple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pineapple.xml"></outline>
-      <outline text="Pink Pixie - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pink-pixie.xml"></outline>
-      <outline text="Pomegranate - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pomegranate.xml"></outline>
-      <outline text="Red Mamba - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-red-mamba.xml"></outline>
-      <outline text="Root Beer - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-root-beer.xml"></outline>
-      <outline text="Salted Caramel - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-salted-caramel.xml"></outline>
-      <outline text="Smurf Poison - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-smurf-poison.xml"></outline>
-      <outline text="Snozzberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-snozzberry.xml"></outline>
-      <outline text="Sour Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-apple.xml"></outline>
-      <outline text="Sour Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-cherry.xml"></outline>
-      <outline text="Sour Lemon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-lemon.xml"></outline>
-      <outline text="Sour Watermelon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-watermelon.xml"></outline>
-      <outline text="Strawberry Lemonade - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberry-lemonade.xml"></outline>
-      <outline text="Tangerine - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tangerine.xml"></outline>
-      <outline text="Tiger’s Blood - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tigers-blood.xml"></outline>
-      <outline text="Watermelon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-watermelon.xml"></outline>
       <outline text="Bada Bing Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bada-bing-cherry.xml"></outline>
       <outline text="Blue Hawaii - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-hawaii.xml"></outline>
       <outline text="Blue Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-raspberry.xml"></outline>
@@ -162,6 +87,81 @@
       <outline text="Tangerine - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tangerine.xml"></outline>
       <outline text="Tiger’s Blood - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tigers-blood.xml"></outline>
       <outline text="Watermelon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-watermelon.xml"></outline>
+      <outline text="Bada Bing Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bada-bing-cherry.xml"></outline>
+      <outline text="Blue Hawaii - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-hawaii.xml"></outline>
+      <outline text="Blue Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-raspberry.xml"></outline>
+      <outline text="Cactus Cooler - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-cactus-cooler.xml"></outline>
+      <outline text="Caramel Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-caramel-apple.xml"></outline>
+      <outline text="Cotton Candy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-cotton-candy.xml"></outline>
+      <outline text="Dreamsicle - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-dreamsicle.xml"></outline>
+      <outline text="Fuzzy Wuzzy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-fuzzy-wuzzy.xml"></outline>
+      <outline text="Green Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-green-apple.xml"></outline>
+      <outline text="Java Joe - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-java-joe.xml"></outline>
+      <outline text="Lemon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lemon.xml"></outline>
+      <outline text="Mango Tango - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-mango-tango.xml"></outline>
+      <outline text="Monster Mash - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-monster-mash.xml"></outline>
+      <outline text="Peach - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peach.xml"></outline>
+      <outline text="Peachy Kiwi - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peachy-kiwi.xml"></outline>
+      <outline text="Peanutbutter Cup - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peanutbutter-cup.xml"></outline>
+      <outline text="Poison Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-poison-apple.xml"></outline>
+      <outline text="Raspberry Tart - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-raspberry-tart.xml"></outline>
+      <outline text="Razzmatazz - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-razzmatazz.xml"></outline>
+      <outline text="Red Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-red-raspberry.xml"></outline>
+      <outline text="Strawberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberry.xml"></outline>
+      <outline text="Strawberries &#39;n Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberries-n-cream.xml"></outline>
+      <outline text="Strawberry Banana - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberry-banana.xml"></outline>
+      <outline text="Tiki Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tiki-cream.xml"></outline>
+      <outline text="Wild Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-wild-cherry.xml"></outline>
+      <outline text="Almond Joy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-almond-joy.xml"></outline>
+      <outline text="Apple Pie - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-apple-pie.xml"></outline>
+      <outline text="Bananadana - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bananadana.xml"></outline>
+      <outline text="Bananas ‘N Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bananas-n-cream.xml"></outline>
+      <outline text="Birch Beer - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-birch-beer.xml"></outline>
+      <outline text="Black Beauty - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-black-beauty.xml"></outline>
+      <outline text="Black Lemonade - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-black-lemonade.xml"></outline>
+      <outline text="Black Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-black-raspberry.xml"></outline>
+      <outline text="Blood Orange - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blood-orange.xml"></outline>
+      <outline text="Blue Cotton Candy - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-cotton-candy.xml"></outline>
+      <outline text="Bubble Gum - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bubble-gum.xml"></outline>
+      <outline text="Chocolate - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-chocolate.xml"></outline>
+      <outline text="Chocolate Mousse - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-chocolate-mousse.xml"></outline>
+      <outline text="Coconut - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-coconut.xml"></outline>
+      <outline text="Cookies &#39;n Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-cookies-n-cream.xml"></outline>
+      <outline text="Dangerberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-dangerberry.xml"></outline>
+      <outline text="Granny Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-granny-apple.xml"></outline>
+      <outline text="Grape Devine - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-grape-devine.xml"></outline>
+      <outline text="Honeydew Melon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-honeydew-melon.xml"></outline>
+      <outline text="Horchata - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-horchata.xml"></outline>
+      <outline text="Joe-Co-Cola - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-joe-co-cola.xml"></outline>
+      <outline text="Joe of the Jungle - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-joe-of-the-jungle.xml"></outline>
+      <outline text="Joeconut Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-joeconut-cream.xml"></outline>
+      <outline text="Lemon Iced Tea - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lemon-iced-tea.xml"></outline>
+      <outline text="Lemon Meringue - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lemon-meringue.xml"></outline>
+      <outline text="Lime - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-lime.xml"></outline>
+      <outline text="Mint Cookie - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-mint-cookie.xml"></outline>
+      <outline text="Orange - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-orange.xml"></outline>
+      <outline text="Passion Berry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-passion-berry.xml"></outline>
+      <outline text="Passion Fruit - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-passion-fruit.xml"></outline>
+      <outline text="Peach Fusion - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peach-fusion.xml"></outline>
+      <outline text="Peaches &#39;N Cream - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-peaches-n-cream.xml"></outline>
+      <outline text="Pink Grapefruit - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pink-grapefruit.xml"></outline>
+      <outline text="Pina Colada - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pina-colada.xml"></outline>
+      <outline text="Pineapple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pineapple.xml"></outline>
+      <outline text="Pink Pixie - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pink-pixie.xml"></outline>
+      <outline text="Pomegranate - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-pomegranate.xml"></outline>
+      <outline text="Red Mamba - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-red-mamba.xml"></outline>
+      <outline text="Root Beer - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-root-beer.xml"></outline>
+      <outline text="Salted Caramel - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-salted-caramel.xml"></outline>
+      <outline text="Smurf Poison - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-smurf-poison.xml"></outline>
+      <outline text="Snozzberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-snozzberry.xml"></outline>
+      <outline text="Sour Apple - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-apple.xml"></outline>
+      <outline text="Sour Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-cherry.xml"></outline>
+      <outline text="Sour Lemon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-lemon.xml"></outline>
+      <outline text="Sour Watermelon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-sour-watermelon.xml"></outline>
+      <outline text="Strawberry Lemonade - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-strawberry-lemonade.xml"></outline>
+      <outline text="Tangerine - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tangerine.xml"></outline>
+      <outline text="Tiger’s Blood - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tigers-blood.xml"></outline>
+      <outline text="Watermelon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-watermelon.xml"></outline>
     </outline>
   </body>
 </opml>
