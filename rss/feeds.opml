@@ -2,91 +2,16 @@
 <opml version="2.0">
   <head>
     <title>Joe&#39;s Italian Ice RSS Feeds</title>
-    <dateCreated>2026-07-08T20:31:31Z</dateCreated>
+    <dateCreated>2026-07-09T20:37:22Z</dateCreated>
     <ownerName>Joe&#39;s Italian Ice</ownerName>
     <ownerEmail>feeds@joesice.com</ownerEmail>
   </head>
   <body>
     <outline text="Location Feeds" type="folder" xmlUrl="">
-      <outline text="Joe&#39;s Italian Ice - Tempe - All Flavors" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az.xml"></outline>
       <outline text="Joe&#39;s Italian Ice - Anaheim - All Flavors" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca.xml"></outline>
+      <outline text="Joe&#39;s Italian Ice - Tempe - All Flavors" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az.xml"></outline>
     </outline>
     <outline text="Individual Flavor Feeds" type="folder" xmlUrl="">
-      <outline text="Bada Bing Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bada-bing-cherry.xml"></outline>
-      <outline text="Blue Hawaii - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-hawaii.xml"></outline>
-      <outline text="Blue Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-raspberry.xml"></outline>
-      <outline text="Cactus Cooler - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-cactus-cooler.xml"></outline>
-      <outline text="Caramel Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-caramel-apple.xml"></outline>
-      <outline text="Cotton Candy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-cotton-candy.xml"></outline>
-      <outline text="Dreamsicle - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-dreamsicle.xml"></outline>
-      <outline text="Fuzzy Wuzzy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-fuzzy-wuzzy.xml"></outline>
-      <outline text="Green Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-green-apple.xml"></outline>
-      <outline text="Java Joe - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-java-joe.xml"></outline>
-      <outline text="Lemon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lemon.xml"></outline>
-      <outline text="Mango Tango - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-mango-tango.xml"></outline>
-      <outline text="Monster Mash - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-monster-mash.xml"></outline>
-      <outline text="Peach - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peach.xml"></outline>
-      <outline text="Peachy Kiwi - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peachy-kiwi.xml"></outline>
-      <outline text="Peanutbutter Cup - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peanutbutter-cup.xml"></outline>
-      <outline text="Poison Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-poison-apple.xml"></outline>
-      <outline text="Raspberry Tart - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-raspberry-tart.xml"></outline>
-      <outline text="Razzmatazz - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-razzmatazz.xml"></outline>
-      <outline text="Red Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-red-raspberry.xml"></outline>
-      <outline text="Strawberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberry.xml"></outline>
-      <outline text="Strawberries &#39;n Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberries-n-cream.xml"></outline>
-      <outline text="Strawberry Banana - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberry-banana.xml"></outline>
-      <outline text="Tiki Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tiki-cream.xml"></outline>
-      <outline text="Wild Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-wild-cherry.xml"></outline>
-      <outline text="Almond Joy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-almond-joy.xml"></outline>
-      <outline text="Apple Pie - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-apple-pie.xml"></outline>
-      <outline text="Bananadana - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bananadana.xml"></outline>
-      <outline text="Bananas ‘N Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bananas-n-cream.xml"></outline>
-      <outline text="Birch Beer - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-birch-beer.xml"></outline>
-      <outline text="Black Beauty - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-black-beauty.xml"></outline>
-      <outline text="Black Lemonade - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-black-lemonade.xml"></outline>
-      <outline text="Black Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-black-raspberry.xml"></outline>
-      <outline text="Blood Orange - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blood-orange.xml"></outline>
-      <outline text="Blue Cotton Candy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-cotton-candy.xml"></outline>
-      <outline text="Bubble Gum - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bubble-gum.xml"></outline>
-      <outline text="Chocolate - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-chocolate.xml"></outline>
-      <outline text="Chocolate Mousse - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-chocolate-mousse.xml"></outline>
-      <outline text="Coconut - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-coconut.xml"></outline>
-      <outline text="Cookies &#39;n Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-cookies-n-cream.xml"></outline>
-      <outline text="Dangerberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-dangerberry.xml"></outline>
-      <outline text="Granny Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-granny-apple.xml"></outline>
-      <outline text="Grape Devine - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-grape-devine.xml"></outline>
-      <outline text="Honeydew Melon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-honeydew-melon.xml"></outline>
-      <outline text="Horchata - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-horchata.xml"></outline>
-      <outline text="Joe-Co-Cola - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-joe-co-cola.xml"></outline>
-      <outline text="Joe of the Jungle - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-joe-of-the-jungle.xml"></outline>
-      <outline text="Joeconut Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-joeconut-cream.xml"></outline>
-      <outline text="Lemon Iced Tea - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lemon-iced-tea.xml"></outline>
-      <outline text="Lemon Meringue - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lemon-meringue.xml"></outline>
-      <outline text="Lime - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lime.xml"></outline>
-      <outline text="Mint Cookie - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-mint-cookie.xml"></outline>
-      <outline text="Orange - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-orange.xml"></outline>
-      <outline text="Passion Berry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-passion-berry.xml"></outline>
-      <outline text="Passion Fruit - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-passion-fruit.xml"></outline>
-      <outline text="Peach Fusion - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peach-fusion.xml"></outline>
-      <outline text="Peaches &#39;N Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peaches-n-cream.xml"></outline>
-      <outline text="Pink Grapefruit - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pink-grapefruit.xml"></outline>
-      <outline text="Pina Colada - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pina-colada.xml"></outline>
-      <outline text="Pineapple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pineapple.xml"></outline>
-      <outline text="Pink Pixie - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pink-pixie.xml"></outline>
-      <outline text="Pomegranate - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pomegranate.xml"></outline>
-      <outline text="Red Mamba - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-red-mamba.xml"></outline>
-      <outline text="Root Beer - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-root-beer.xml"></outline>
-      <outline text="Salted Caramel - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-salted-caramel.xml"></outline>
-      <outline text="Smurf Poison - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-smurf-poison.xml"></outline>
-      <outline text="Snozzberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-snozzberry.xml"></outline>
-      <outline text="Sour Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-apple.xml"></outline>
-      <outline text="Sour Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-cherry.xml"></outline>
-      <outline text="Sour Lemon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-lemon.xml"></outline>
-      <outline text="Sour Watermelon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-watermelon.xml"></outline>
-      <outline text="Strawberry Lemonade - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberry-lemonade.xml"></outline>
-      <outline text="Tangerine - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tangerine.xml"></outline>
-      <outline text="Tiger’s Blood - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tigers-blood.xml"></outline>
-      <outline text="Watermelon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-watermelon.xml"></outline>
       <outline text="Bada Bing Cherry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-bada-bing-cherry.xml"></outline>
       <outline text="Blue Hawaii - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-hawaii.xml"></outline>
       <outline text="Blue Raspberry - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-blue-raspberry.xml"></outline>
@@ -162,6 +87,81 @@
       <outline text="Tangerine - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tangerine.xml"></outline>
       <outline text="Tiger’s Blood - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-tigers-blood.xml"></outline>
       <outline text="Watermelon - Anaheim, CA" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/anaheim-ca-watermelon.xml"></outline>
+      <outline text="Bada Bing Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bada-bing-cherry.xml"></outline>
+      <outline text="Blue Hawaii - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-hawaii.xml"></outline>
+      <outline text="Blue Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-raspberry.xml"></outline>
+      <outline text="Cactus Cooler - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-cactus-cooler.xml"></outline>
+      <outline text="Caramel Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-caramel-apple.xml"></outline>
+      <outline text="Cotton Candy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-cotton-candy.xml"></outline>
+      <outline text="Dreamsicle - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-dreamsicle.xml"></outline>
+      <outline text="Fuzzy Wuzzy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-fuzzy-wuzzy.xml"></outline>
+      <outline text="Green Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-green-apple.xml"></outline>
+      <outline text="Java Joe - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-java-joe.xml"></outline>
+      <outline text="Lemon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lemon.xml"></outline>
+      <outline text="Mango Tango - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-mango-tango.xml"></outline>
+      <outline text="Monster Mash - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-monster-mash.xml"></outline>
+      <outline text="Peach - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peach.xml"></outline>
+      <outline text="Peachy Kiwi - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peachy-kiwi.xml"></outline>
+      <outline text="Peanutbutter Cup - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peanutbutter-cup.xml"></outline>
+      <outline text="Poison Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-poison-apple.xml"></outline>
+      <outline text="Raspberry Tart - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-raspberry-tart.xml"></outline>
+      <outline text="Razzmatazz - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-razzmatazz.xml"></outline>
+      <outline text="Red Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-red-raspberry.xml"></outline>
+      <outline text="Strawberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberry.xml"></outline>
+      <outline text="Strawberries &#39;n Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberries-n-cream.xml"></outline>
+      <outline text="Strawberry Banana - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberry-banana.xml"></outline>
+      <outline text="Tiki Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tiki-cream.xml"></outline>
+      <outline text="Wild Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-wild-cherry.xml"></outline>
+      <outline text="Almond Joy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-almond-joy.xml"></outline>
+      <outline text="Apple Pie - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-apple-pie.xml"></outline>
+      <outline text="Bananadana - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bananadana.xml"></outline>
+      <outline text="Bananas ‘N Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bananas-n-cream.xml"></outline>
+      <outline text="Birch Beer - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-birch-beer.xml"></outline>
+      <outline text="Black Beauty - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-black-beauty.xml"></outline>
+      <outline text="Black Lemonade - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-black-lemonade.xml"></outline>
+      <outline text="Black Raspberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-black-raspberry.xml"></outline>
+      <outline text="Blood Orange - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blood-orange.xml"></outline>
+      <outline text="Blue Cotton Candy - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-blue-cotton-candy.xml"></outline>
+      <outline text="Bubble Gum - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-bubble-gum.xml"></outline>
+      <outline text="Chocolate - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-chocolate.xml"></outline>
+      <outline text="Chocolate Mousse - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-chocolate-mousse.xml"></outline>
+      <outline text="Coconut - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-coconut.xml"></outline>
+      <outline text="Cookies &#39;n Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-cookies-n-cream.xml"></outline>
+      <outline text="Dangerberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-dangerberry.xml"></outline>
+      <outline text="Granny Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-granny-apple.xml"></outline>
+      <outline text="Grape Devine - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-grape-devine.xml"></outline>
+      <outline text="Honeydew Melon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-honeydew-melon.xml"></outline>
+      <outline text="Horchata - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-horchata.xml"></outline>
+      <outline text="Joe-Co-Cola - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-joe-co-cola.xml"></outline>
+      <outline text="Joe of the Jungle - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-joe-of-the-jungle.xml"></outline>
+      <outline text="Joeconut Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-joeconut-cream.xml"></outline>
+      <outline text="Lemon Iced Tea - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lemon-iced-tea.xml"></outline>
+      <outline text="Lemon Meringue - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lemon-meringue.xml"></outline>
+      <outline text="Lime - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-lime.xml"></outline>
+      <outline text="Mint Cookie - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-mint-cookie.xml"></outline>
+      <outline text="Orange - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-orange.xml"></outline>
+      <outline text="Passion Berry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-passion-berry.xml"></outline>
+      <outline text="Passion Fruit - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-passion-fruit.xml"></outline>
+      <outline text="Peach Fusion - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peach-fusion.xml"></outline>
+      <outline text="Peaches &#39;N Cream - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-peaches-n-cream.xml"></outline>
+      <outline text="Pink Grapefruit - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pink-grapefruit.xml"></outline>
+      <outline text="Pina Colada - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pina-colada.xml"></outline>
+      <outline text="Pineapple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pineapple.xml"></outline>
+      <outline text="Pink Pixie - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pink-pixie.xml"></outline>
+      <outline text="Pomegranate - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-pomegranate.xml"></outline>
+      <outline text="Red Mamba - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-red-mamba.xml"></outline>
+      <outline text="Root Beer - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-root-beer.xml"></outline>
+      <outline text="Salted Caramel - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-salted-caramel.xml"></outline>
+      <outline text="Smurf Poison - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-smurf-poison.xml"></outline>
+      <outline text="Snozzberry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-snozzberry.xml"></outline>
+      <outline text="Sour Apple - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-apple.xml"></outline>
+      <outline text="Sour Cherry - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-cherry.xml"></outline>
+      <outline text="Sour Lemon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-lemon.xml"></outline>
+      <outline text="Sour Watermelon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-sour-watermelon.xml"></outline>
+      <outline text="Strawberry Lemonade - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-strawberry-lemonade.xml"></outline>
+      <outline text="Tangerine - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tangerine.xml"></outline>
+      <outline text="Tiger’s Blood - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-tigers-blood.xml"></outline>
+      <outline text="Watermelon - Tempe, AZ" type="rss" xmlUrl="https://raw.githubusercontent.com/PatOconnor43/joes-italian-ice-rss-feeds/master/rss/tempe-az-watermelon.xml"></outline>
     </outline>
   </body>
 </opml>
